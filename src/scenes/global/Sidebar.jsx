@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@sajeedkannoje 
-ed-roh
-/
-react-admin-dashboard
-Public
-Fork your own copy of ed-roh/react-admin-dashboard
-Code
-Issues
-3
-Pull requests
-2
-Actions
-Projects
-Security
-Insights
-react-admin-dashboard/src/scenes/global/Sidebar.jsx /
-@ed-roh
-ed-roh first commit
-Latest commit 0469bd8 on Sep 26, 2022
- History
- 1 contributor
-228 lines (219 sloc)  7.04 KB
-
 import { useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
